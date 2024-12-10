@@ -1,4 +1,4 @@
-# **Netflix Movies and TV Shows Clustering Machine Learning Project**
+# **Unsupervised Machine Learning - Netflix Movies and TV Shows Clustering Project**
 ![images (2)](https://github.com/user-attachments/assets/338d1b55-1880-473d-90fa-ea4af4fa79c7)
 
 The primary goal of this project was to analyze a dataset of TV shows and movies available on Netflix as of 2019. Using natural language processing (NLP) techniques, the objective was to group content into meaningful clusters and develop a recommendation system to improve user experience and reduce subscriber churn. With Netflix serving over 200 million subscribers worldwide, enhancing its offerings is critical to maintaining its leadership in the streaming industry.

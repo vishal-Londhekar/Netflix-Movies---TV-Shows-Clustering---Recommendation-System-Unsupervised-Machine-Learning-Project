@@ -1,20 +1,42 @@
 # **Netflix Movies & TV Shows Clustering & Recommendation System - Unsupervised Machine Learning**
 ![images (2)](https://github.com/user-attachments/assets/338d1b55-1880-473d-90fa-ea4af4fa79c7)
 
-The primary goal of this project was to analyze a dataset of TV shows and movies available on Netflix as of 2019. Using natural language processing (NLP) techniques, the objective was to group content into meaningful clusters and develop a recommendation system to improve user experience and reduce subscriber churn. With Netflix serving over 200 million subscribers worldwide, enhancing its offerings is critical to maintaining its leadership in the streaming industry.
+📌 Project Overview
+This project explores and analyzes a dataset of 7,700+ Netflix titles (movies & TV shows) as of 2019. It includes data cleaning, NLP-driven feature engineering, advanced visual storytelling, and a content-based recommendation engine using machine learning.
 
-The project began by addressing data quality issues, such as handling missing values and processing nested columns (e.g., director, cast, listed_in, and country). These steps ensured a cleaner and more structured dataset for analysis.
+🧠 Key Features
+Data Wrangling: Handled missing values, unnested nested fields (cast, director, genre, country), and preprocessed data.
 
-To categorize content effectively, the rating attribute was binned into groups, such as adult, children's, family-friendly, and not rated. This classification supports the delivery of recommendations tailored to viewer preferences and age appropriateness.
+1. Exploratory Data Analysis (EDA): Conducted univariate, bivariate, and multivariate analysis with 15+ insightful visualizations.
 
-Exploratory data analysis (EDA) was conducted to uncover patterns, distributions, and relationships within the dataset. This analysis provided insights into the diversity and characteristics of Netflix's content.
+2. Text Processing & Feature Engineering: Built a consolidated content_detail feature using TF-IDF Vectorization.
 
-NLP techniques were employed to tokenize, preprocess, and vectorize textual attributes, including director, cast, country, genre, rating, and description. By leveraging the Term Frequency-Inverse Document Frequency (TF-IDF) vectorizer, the project quantified textual data to identify similarities among movies and TV shows.
+3. Dimensionality Reduction: Applied PCA to improve model performance.
 
-Dimensionality reduction was performed using Principal Component Analysis (PCA) to optimize computational efficiency while retaining meaningful data representation.
+4. Clustering Algorithms: Implemented K-Means and Hierarchical Clustering with evaluation via Silhouette Score, Elbow Method, and Dendrograms.
 
-For clustering, two algorithms were implemented: K-Means and Agglomerative Hierarchical Clustering. The optimal number of clusters was determined using evaluation methods like the Elbow Method, Silhouette Score, and dendrogram analysis, ensuring well-defined groupings.
+5. Recommendation System: Developed a content-based recommender using cosine similarity for personalized suggestions.
+   
+7. Hypothesis Testing: Used Z-test and T-test to derive business insights from genre, duration, and release patterns.
 
-A content-based recommender system was then developed using a cosine similarity matrix. This system analyzed user viewing histories to deliver personalized content suggestions based on similarities with other titles. By offering tailored recommendations, the system aimed to enhance user satisfaction and reduce churn.
+🛠 Technologies & Tools
+Languages & Libraries: Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, NLTK
 
-In summary, the project successfully leveraged NLP techniques to analyze Netflix's dataset of TV shows and movies. By clustering content and implementing a content-based recommendation system, the project contributed to improving the user experience and supporting Netflix's efforts to retain subscribers. These findings can aid Netflix in maintaining its competitive edge in the ever-evolving streaming industry.
+Machine Learning: K-Means, Agglomerative Clustering, PCA, Cosine Similarity
+
+NLP Techniques: Tokenization, Stopword Removal, Lemmatization, TF-IDF
+
+Statistical Analysis: SciPy, statsmodels (Z-test, T-test)
+
+Version Control: Git & GitHub
+
+📈 Business Impact
+Identified trends in global content contribution, genre popularity, and release patterns.
+
+Created a scalable, production-ready recommendation system.
+
+Delivered actionable insights to enhance content targeting and viewer retention strategies.
+
+
+Vishal Londhekar
+📫 Email: vishal.londhekar1998@gmail.com

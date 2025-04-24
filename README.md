@@ -1,11 +1,11 @@
 # **Netflix Movies & TV Shows Clustering & Recommendation System - Unsupervised Machine Learning**
 ![images (2)](https://github.com/user-attachments/assets/338d1b55-1880-473d-90fa-ea4af4fa79c7)
 
-#**📌 Project Overview**
+### **📌 Project Overview**
 
 This project explores and analyzes a dataset of 7,700+ Netflix titles (movies & TV shows) as of 2019. It includes data cleaning, NLP-driven feature engineering, advanced visual storytelling, and a content-based recommendation engine using machine learning.
 
-#**🧠 Key Features**
+### **🧠 Key Features**
 
 **1. Data Wrangling:** Handled missing values, unnested nested fields (cast, director, genre, country), and preprocessed data.
 
@@ -21,7 +21,8 @@ This project explores and analyzes a dataset of 7,700+ Netflix titles (movies & 
    
 **7. Hypothesis Testing:** Used Z-test and T-test to derive business insights from genre, duration, and release patterns.
 
-#**🛠 Technologies & Tools**
+### **🛠 Technologies & Tools**
+
 **Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, NLTK
 
 **Machine Learning:** K-Means, Agglomerative Clustering, PCA, Cosine Similarity
@@ -32,7 +33,7 @@ This project explores and analyzes a dataset of 7,700+ Netflix titles (movies & 
 
 **Version Control:** Git & GitHub
 
-#**📈 Business Impact**
+### **📈 Business Impact**
 
 Identified trends in global content contribution, genre popularity, and release patterns.
 
@@ -41,6 +42,6 @@ Created a scalable, production-ready recommendation system.
 Delivered actionable insights to enhance content targeting and viewer retention strategies.
 
 
-**Vishal Londhekar**
+## **Vishal Londhekar**
 
-**📫 Email: vishal.londhekar1998@gmail.com**
+## **📫 Email: vishal.londhekar1998@gmail.com**

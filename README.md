@@ -36,9 +36,6 @@ To segment Netflix titles using **K-Means Clustering** based on genre and other 
 - Content trends vary by region and type (movies vs shows)
 - Useful for marketing segmentation or improving recommendations
 
-## 📸 Sample Visuals
-*(Insert screenshots of your PCA plot or genre heatmaps here)*
-
 ## 💡 Business Use Case
 Helps platforms like Netflix:
 - Understand audience content preferences

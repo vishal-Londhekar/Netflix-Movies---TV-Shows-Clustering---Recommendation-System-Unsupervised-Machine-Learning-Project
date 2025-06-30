@@ -40,6 +40,11 @@ To segment Netflix titles using **K-Means Clustering** based on genre and other 
 Helps platforms like Netflix:
 - Understand audience content preferences
 - Group titles for personalized recommendation engines
+
+## 👤 Author
+**Vishal Londhekar**  
+🎓 Certified Data Analyst/Data Scientist | B.Tech in Mechanical Engineering  
+📫 [LinkedIn](https://www.linkedin.com/in/vishal-londhekar) | 🌐 [GitHub](https://github.com/YourUsername)
 - Plan content acquisition by genre and region
 
 

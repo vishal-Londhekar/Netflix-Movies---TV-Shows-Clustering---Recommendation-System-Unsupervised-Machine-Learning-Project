@@ -1,45 +1,49 @@
-# **Netflix Movies & TV Shows Clustering & Recommendation System - Unsupervised Machine Learning**
+# 🎬 Netflix Movies and TV Shows Clustering
 ![images (2)](https://github.com/user-attachments/assets/338d1b55-1880-473d-90fa-ea4af4fa79c7)
 
-### **📌 Project Overview**
+## 📌 Objective
+To segment Netflix titles using **K-Means Clustering** based on genre and other metadata to uncover viewer patterns and enable content personalization.
 
-This project explores and analyzes a dataset of 7,700+ Netflix titles (movies & TV shows) as of 2019. It includes data cleaning, NLP-driven feature engineering, advanced visual storytelling, and a content-based recommendation engine using machine learning.
+## 📂 Dataset
+- Source: Kaggle – [Netflix Movies and TV Shows Dataset](https://www.kaggle.com/shivamb/netflix-shows)
+- Records: 6,000+ titles
+- Features: Title, Genre, Type (Movie/TV Show), Release Year, Country, Rating
 
-### **🧠 Key Features**
+## 🧰 Tools & Libraries
+- Python, Pandas, NumPy
+- Scikit-learn (K-Means, PCA)
+- Seaborn & Matplotlib for EDA and visualization
+- Jupyter Notebook
 
-**1. Data Wrangling:** Handled missing values, unnested nested fields (cast, director, genre, country), and preprocessed data.
+## 🚀 Process Overview
+1. 📊 **Data Cleaning & Preprocessing**
+   - Removed nulls, parsed multi-label genres
+   - One-hot encoding of genre columns
 
-**2. Exploratory Data Analysis (EDA):** Conducted univariate, bivariate, and multivariate analysis with 15+ insightful visualizations.
+2. 🔍 **Exploratory Data Analysis (EDA)**
+   - Genre distribution, content trends by year and type
+   - Visualizations of top genres and countries
 
-**3. Text Processing & Feature Engineering:** Built a consolidated content_detail feature using TF-IDF Vectorization.
+3. 📦 **Clustering (K-Means)**
+   - Applied K-Means on genre matrix
+   - Used Elbow Method to determine optimal number of clusters (K=5)
 
-**4. Dimensionality Reduction:** Applied PCA to improve model performance.
+4. 📉 **Dimensionality Reduction**
+   - Applied PCA to visualize content clusters in 2D
 
-**5. Clustering Algorithms:** Implemented K-Means and Hierarchical Clustering with evaluation via Silhouette Score, Elbow Method, and Dendrograms.
+## 📈 Key Insights
+- Identified 5 distinct viewer/content clusters (e.g., Action, Comedy, Kids, Romance, Thriller)
+- Content trends vary by region and type (movies vs shows)
+- Useful for marketing segmentation or improving recommendations
 
-**6. Recommendation System:** Developed a content-based recommender using cosine similarity for personalized suggestions.
-   
-**7. Hypothesis Testing:** Used Z-test and T-test to derive business insights from genre, duration, and release patterns.
+## 📸 Sample Visuals
+*(Insert screenshots of your PCA plot or genre heatmaps here)*
 
-### **🛠 Technologies & Tools**
-
-**Languages & Libraries:** Python, Pandas, NumPy, Seaborn, Matplotlib, Scikit-learn, NLTK
-
-**Machine Learning:** K-Means, Agglomerative Clustering, PCA, Cosine Similarity
-
-**NLP Techniques:** Tokenization, Stopword Removal, Lemmatization, TF-IDF
-
-**Statistical Analysis:** SciPy, statsmodels (Z-test, T-test)
-
-**Version Control:** Git & GitHub
-
-### **📈 Business Impact**
-
-Identified trends in global content contribution, genre popularity, and release patterns.
-
-Created a scalable, production-ready recommendation system.
-
-Delivered actionable insights to enhance content targeting and viewer retention strategies.
+## 💡 Business Use Case
+Helps platforms like Netflix:
+- Understand audience content preferences
+- Group titles for personalized recommendation engines
+- Plan content acquisition by genre and region
 
 
 ## **Vishal Londhekar**

@@ -44,10 +44,23 @@ Helps platforms like Netflix:
 ## 👤 Author
 **Vishal Londhekar**  
 🎓 Certified Data Analyst/Data Scientist | B.Tech in Mechanical Engineering  
-📫 [LinkedIn](https://www.linkedin.com/in/vishal-londhekar) | 🌐 [GitHub](https://github.com/YourUsername)
+📫 [LinkedIn](https://www.linkedin.com/in/vishal-londhekar)
 - Plan content acquisition by genre and region
 
 
-## **Vishal Londhekar**
 
-## **📫 Email: vishal.londhekar1998@gmail.com**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
